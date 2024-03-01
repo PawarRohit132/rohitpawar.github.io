@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- PAGE1 -->
+    <div class="page1" id="home">
+      <a id="btntop" href="#home"><img src="./arrow-up-line.png" alt="image" /><br />Top</a>
+      <div class="navbar fixed">
+        <div class="navleft">
+          <h1 data-aos="slide-right"><span id="white">Port</span>folio</h1>
+          <div class="hamburger">
+            <img src="./menu-3-line.png" alt="">
+          </div>
+
+          <div class="navright v-l-resp">
+            <li class="h-l-resp">
+              <a data-aos="fade-down" href="#home">HOME</a>
+              <a data-aos="fade-up" href="#about">ABOUT ME</a>
+              <a data-aos="fade-down" href="#skills">SKILLS</a>
+              <a data-aos="fade-up" href="#">PROJECTS</a>
+              <a data-aos="fade-down" href="#contact">CONTACT</a>
+            </li>
+          </div>
+        </div>
+        
+      </div>
+      <div class="rightleft">
+        <div class="right">
+          <h2 data-aos="fade-left">Hello!</h2>
+          <h2 data-aos="flip-down"><span id="red">My</span> name is</h2>
+          <h2 data-aos="flip-up">Rohit Kumar</h2>
+          <h2 data-aos="fade-right">i am a <span class="autotype"></span></h3>
+            
+        </div>
+        <div class="left">
+          <img src="./img.png" alt="">
+  
+        </div>  
+
+      </div>
+
+      
+    </div>
+    <!-- PAGE1 -->
+
+    <!-- PAGE2 -->
+    <div class="page2" id="about">
+      <div class="abo">
+        <h1 data-aos="fade-down">About Me</h1>
+          <p data-aos="zoom-out">
+            Greetings! I'm Rohit Kumar, an aspiring web developer currently
+            pursuing my B Tech at Technocrats Institude of Technology and
+            Science in Bhopal, set to graduate in 2024. Originally from Sarni,
+            Madhya Pradesh, I bring a passion for coding and a basic
+            understanding of JAVA, fron-end web developer, and a dash of SQL
+            knowledge.With expand my skills and create captivating online
+            experiences.
+          </p>
+        </div>
+      </div>
+      </div>
+    <!-- PAGE2 -->
+
+    <!-- PAGE3 -->
+    <div class="page3" id="skills">
+      <h1 data-aos="flip-down">Skills</h1>
+      <div class="skill">
+      <div class="skill-1"  data-aos="fade-down">
+        <img data-aos="fade-right" src="./html5-fill.png" alt="">
+        <h2>Web Development</h2>
+        <p>I have good knowledge of front-end web development.</p>
+      </div>
+      <div class="skill-2" data-aos="fade-up">
+        <img data-aos="fade-left" src="./java-line.png" alt="">
+        <h2>JAVA</h2>
+        <p>I have good knowledge of JAVA programming.</p>
+      </div>
+      <div class="skill-3" data-aos="fade-down">
+        <img data-aos="fade-right" src="./sql.png" alt="">
+        <h2>SQL</h3>
+          <p>I have some knowledge of working with SQL.</p>
+      </div>
+      <div class="skill-4" data-aos="fade-up">
+        <img data-aos="fade-left" src="./problem.png" alt="">
+        <h2>Problem <br>Solving</h3>
+          <p>I have good solving skills</p>
+      </div>
+    </div>
+    </div></div>
+    <!-- PAGE3 -->
+    
+
+
+    <!-- PAGE5 -->
+    <div class="page5" id="contact">
+      <div class="con">
+        <h1 data-aos="fade-down">Contact</h1>
+        <div class="conimage">
+          <h3 data-aos="fade-right"><img src="./mail-fill.png" alt="" /></h3>
+          <a
+            href="mailto:rohitkodle13955931@gmail.com" target="_blank"
+            >rohitkodle13955931@gmail.com</a
+          >
+        
+
+          <h3 data-aos="fade-left"><img src="./whatsapp-fill.png" alt="" /></h3>
+          <a href="https://wa.link/rma003" target="_blank">9399143181</a>
+
+          <h3 data-aos="fade-right"><img src="instagram-fill.png" alt="" /></h3>
+          <a href="https://google.com">pawar__sahab_</a>
+
+          <h3 data-aos="fade-left">
+            <img src="./facebook-circle-fill.png" alt="" />
+          </h3>
+          <a href="https://google.com">Ro-hit Pawar</a>
+        </div>
+      </div>
+    </div>
+    <!-- PAGE5 -->
+
+    <!-- autotype animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed(".autotype ", {
+        strings: ["Developer."],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true,
+      });
+    </script>
+  
+
+    <!-- animation aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+  duration: 1800,
+  offset: 50,
+  });
+    </script>
+    
+    <script src="java.js"></script>
+  </body>
+</html>
